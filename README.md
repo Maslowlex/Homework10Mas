@@ -2,8 +2,6 @@
 
 ## Условие задачи
 Составьте программу, которая для заданной пользователем фигуры, например прямоугольника (треугольника или другой фигуры см. индивидуальное задание работы 9) предлагает меню выбора одной из операций:
-<img width="830" height="160" alt="image" src="https://github.com/user-attachments/assets/3e395c18-93a2-480b-a47c-dd5177c27ff6" />
-
 <img width="787" height="148" alt="image" src="https://github.com/user-attachments/assets/3d163119-db98-476a-b15f-661a6e8ef831" />
 <img width="1022" height="792" alt="image" src="https://github.com/user-attachments/assets/5206fdf3-9109-4a38-ace9-1769b8f2bfef" />
 
