@@ -67,7 +67,7 @@ flowchart TD
     Params --> Menu
     CompareStep3 --> Menu
     Wrong --> Menu
-
+```
 ### Блок-схема 
 
 <img width="1286" height="1713" alt="12 drawio" src="https://github.com/user-attachments/assets/5760f44c-3ce2-493e-9553-de6cca23f313" />
