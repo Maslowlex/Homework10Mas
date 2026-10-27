@@ -37,7 +37,35 @@
      * **`case 0`:** Вывод сообщения о выходе. Установка `repeat = 0`.
      * **`default`:** Вывод сообщения "Неверный выбор".
 12. **КОНЕЦ**
-
+```mermaid
+flowchart TD
+    Start([Начало]) --> Init[/Ввод параметров: symbol, h, b, a/]
+    
+    Init --> Menu[Вывод меню действий]
+    Menu --> Choice[/Ввод choice/]
+    
+    Choice --> Switch{choice?}
+    
+    Switch -- 1 --> CalcArea["Вызов area_trapezoid<br>Вывод площади"]
+    Switch -- 2 --> Def["Вызов print_definition<br>Вывод определения"]
+    Switch -- 3 --> Draw1["Вызов draw_trapezoid<br>с символом '*'"]
+    Switch -- 4 --> Draw2["Вызов draw_trapezoid<br>с символом symbol"]
+    Switch -- 5 --> Params["Вызов print_parameters<br>Вывод всех данных"]
+    
+    Switch -- 6 --> CompareStep1[/Ввод h2, b2, a2/]
+    CompareStep1 --> CompareStep2["Вызов area_trapezoid<br>для 1-й и 2-й фигуры"]
+    CompareStep2 --> CompareStep3["Вызов compare_areas<br>Вывод разницы"]
+    
+    Switch -- 0 --> End([Конец])
+    Switch -- default --> Wrong[/Вывод: Неверный выбор/]
+    
+    CalcArea --> Menu
+    Def --> Menu
+    Draw1 --> Menu
+    Draw2 --> Menu
+    Params --> Menu
+    CompareStep3 --> Menu
+    Wrong --> Menu
 
 ### Блок-схема 
 
