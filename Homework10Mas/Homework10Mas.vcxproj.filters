@@ -18,5 +18,13 @@
     <ClCompile Include="Task1.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="functions.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="10.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

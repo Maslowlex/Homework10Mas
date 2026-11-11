@@ -1,0 +1,10 @@
+float area_trapezoid(float h, float b, float a);
+int draw_trapezoid(char symbol, int h, int b, int a);
+int count_trapezoid_symbols(int h, int b, int a);
+void print_definition();
+void print_parameters(float h, float b, float a, char symbol);
+int compare_areas(float area1, float area2);
+char get_symbol(char symbol);
+float get_h(float h);
+float get_b(float b);
+float get_a(float a);
